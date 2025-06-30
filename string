@@ -1,0 +1,18 @@
+
+#include <stdio.h>
+
+int main()
+{
+   char s1[20]= {'N','I','T','I','N'};
+   char s2[20]= "DOREMON";
+   char s3[20];
+   
+   puts(s2);
+   puts(s1);
+   printf("enter value of s3\t");
+   scanf("%[^\n]s",s3);
+   
+   printf("%s",s3);
+   
+    return 0;
+}
